@@ -1,0 +1,90 @@
+@media(max-width:576px){
+	.book .inner-book p{
+		margin-left: 0;
+	}
+}
+
+@media(max-width:768px){
+	.book .inner-book button{
+		margin-top: 0;
+		display: flex;
+		    margin-left: auto;
+    margin-right: auto;
+		float: none;
+	}
+}
+@media(max-width:768px){
+	.regist input{
+		top: -288px;
+	}
+	.regist button.btn {
+    position: relative;
+    top: -260px;
+}
+	.regist select{
+		top: -279px;
+	}
+	.regist img {
+    margin-top: 51px;
+		    width: 259px;
+}
+	.regist{
+		height: 1827px
+	}
+	.regist .log{
+		height: 1732px;
+		    margin-left: -53px;
+	}
+	.book{
+		    height: 735px;
+	}
+  }
+@media(min-width:768px){
+	@media(max-width:836px){
+		.regist img{
+			    width: 187px;
+    height: 260px;
+		}
+		
+	}
+}
+
+@media(min-width:836px){
+	@media(max-width:991px){
+		.regist img{
+			    width: 214px;
+    			height: 284px;
+		}
+	}
+}
+@media(max-width:970px){
+	.te{
+		left: 0;
+	}
+}
+@media(min-width:992px){
+	@media(max-width:1062px){
+			.regist img{
+			width: 250px;
+		    height: 368px;
+		}
+	
+	.regist .log{
+		    height: 622px;
+	}
+		}
+
+}
+
+@media(min-width:1063px){
+	@media(max-width:1120px)
+{
+	.regist .log{
+		width: 90%;
+		height: 639px;
+	}
+		.regist img{
+		width: 271px
+	}
+}
+}
